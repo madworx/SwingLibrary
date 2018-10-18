@@ -200,7 +200,7 @@
             <configuration>
               <output>${project.build.directory}/with-dependencies/swinglibrary-${project.version}.jar</output>
               <includes>
-                <include>org.netbeans:jemmy</include>
+                <include>com.github.madworx:netbeans-jemmy</include>
                 <include>abbot:abbot</include>
                 <include>abbot:costello</include>
                 <include>junit:junit</include>
