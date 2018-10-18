@@ -6,16 +6,11 @@ dist: trusty
 
 jdk:
   - oraclejdk8
-  - oraclejdk9
+  - openjdk7
   - openjdk8
-  - openjdk9
-
-before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
 
 install:
-  - mvn clean package -Dmaven.test.skip=true
+  - xvfb-run -a mvn clean package -Dmaven.test.skip=true
 
 script:
-  - mvn clean verify
+  - xvfb-run -a mvn clean verify
