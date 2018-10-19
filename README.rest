@@ -1,7 +1,8 @@
 SwingLibrary
 ============
 
-[![Build Status](https://travis-ci.org/madworx/SwingLibrary.svg?branch=master)](https://travis-ci.org/madworx/SwingLibrary)
+.. image:: https://travis-ci.org/madworx/SwingLibrary.svg?branch=master
+   :target: https://travis-ci.org/madworx/SwingLibrary
 
 Swing Library is a Robot Framework library for testing Java Swing
 applications.  Usage instructions are in the Wiki__.
