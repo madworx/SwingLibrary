@@ -8,11 +8,11 @@
   </parent>
   <groupId>org.robotframework</groupId>
   <artifactId>swinglibrary</artifactId>
-  <version>1.9.8mwx12</version>
+  <version>1.9.8mwx14</version>
   <packaging>jar</packaging>
   <name>swinglibrary</name>
-  <description>A Robot Framework test library for Swing UI testing</description>
-  <url>https://github.com/robotframework/SwingLibrary</url>
+  <description>(A fork of) A Robot Framework test library for Swing UI testing</description>
+  <url>https://github.com/madworx/SwingLibrary/</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -21,13 +21,13 @@
     </license>
   </licenses>
   <scm>
-    <url>https://github.com/robotframework/SwingLibrary</url>
-    <connection>scm:git:https://github.com/robotframework/SwingLibrary</connection>
+    <url>https://github.com/madworx/SwingLibrary</url>
+    <connection>scm:git:https://github.com/madworx/SwingLibrary</connection>
   </scm>
   <developers>
     <developer>
-      <name>Robot Framework developers</name>
-      <email>robotframework@gmail.com</email>
+      <name>madworx AB; Swing Library</name>
+      <email>swinglibrary@madworx.se</email>
     </developer>
   </developers>
   <properties>
