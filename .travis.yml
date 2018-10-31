@@ -6,7 +6,6 @@ sudo: false
 dist: trusty
 
 jdk:
-  - oraclejdk8
   - openjdk8
 
 before_script:
@@ -18,7 +17,7 @@ install:
 
 script:
   - mvn clean verify 
-  - mvn -Dmaven.test.skip=true -Dgpg.skip=true install
+  - mvn -Dmaven.test.skip=true -Dgpg.skip=true -DcreateChecksum=true install
 
 deploy:
   provider: releases
