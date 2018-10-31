@@ -40,8 +40,8 @@
       <url>http://maven.laughingpanda.org/maven2/</url>
     </repository>
     <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
+      <id>madworx</id>
+      <url>https://maven.madworx.se</url>
     </repository>
   </repositories>
   <dependencies>
