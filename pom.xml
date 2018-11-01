@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.robotframework</groupId>
   <artifactId>swinglibrary</artifactId>
-  <version>1.9.8mwx15</version>
+  <version>1.9.8mwx16</version>
   <packaging>jar</packaging>
   <name>swinglibrary</name>
   <description>(A fork of) A Robot Framework test library for Swing UI testing</description>
@@ -266,6 +266,8 @@
               <artifactId>SwingLibrary</artifactId>
               <version>${project.version}</version>
               <file>${project.build.directory}/with-dependencies/swinglibrary-${project.version}.jar</file>
+              <generatePom>true</generatePom>
+              <createChecksum>true</createChecksum>
             </configuration>
           </execution>
         </executions>
