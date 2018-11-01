@@ -28,8 +28,8 @@ deploy:
     - $HOME/.m2/repository/com/github/madworx/SwingLibrary/*/SwingLibrary-*.*.sha1
     - $HOME/.m2/repository/com/github/madworx/SwingLibrary/*/SwingLibrary-*.pom
     - $HOME/.m2/repository/com/github/madworx/SwingLibrary/*/SwingLibrary-*.jar
-    - target\ with\ spaces/robotframework/libdoc/SwingLibrary-*.xml
-    - target\ with\ spaces/robotframework/libdoc/SwingLibrary-*.html
+    - ./target with spaces/robotframework/libdoc/SwingLibrary-*.xml
+    - ./target with spaces/robotframework/libdoc/SwingLibrary-*.html
   skip_cleanup: true
   overwrite: true
   on:
