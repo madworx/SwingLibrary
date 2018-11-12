@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.github.madworx</groupId>
       <artifactId>netbeans-jemmy</artifactId>
-      <version>v2.2.7.5mwx6</version>
+      <version>v2.2.7.5mwx7</version>
     </dependency>
     <dependency>
       <groupId>abbot</groupId>
@@ -191,7 +191,7 @@
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>jarjar-maven-plugin</artifactId>
-        <version>1.8</version>
+        <version>1.9</version>
         <executions>
           <execution>
             <phase>package</phase>
