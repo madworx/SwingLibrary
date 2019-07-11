@@ -113,7 +113,7 @@ Get Menu Items From Popup Menu's submenu contains no sub items
     Should be empty  ${items}
 
 Get Menu Items From Popup Menu fails with non existing menu item
-    runKeywordAndExpectError  Wait for "unexisting" subcomponent to be displayed  getMenuItemsFromPopupMenu  unexisting  ${EMPTY}
+    runKeywordAndExpectError  Wait for "unexisting" subcomponent to be displayed (ComponentOperator.WaitComponentTimeout)  getMenuItemsFromPopupMenu  unexisting  ${EMPTY}
 
 *** Keywords ***
 mainMenuItemNameShouldBe

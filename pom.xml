@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.robotframework</groupId>
   <artifactId>swinglibrary</artifactId>
-  <version>1.9.8mwx18</version>
+  <version>1.9.9mwx</version>
   <packaging>jar</packaging>
   <name>swinglibrary</name>
   <description>(A fork of) A Robot Framework test library for Swing UI testing</description>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.github.madworx</groupId>
       <artifactId>netbeans-jemmy</artifactId>
-      <version>v2.2.7.5mwx5</version>
+      <version>v2.2.7.5mwx7</version>
     </dependency>
     <dependency>
       <groupId>abbot</groupId>
@@ -191,7 +191,7 @@
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>jarjar-maven-plugin</artifactId>
-        <version>1.8</version>
+        <version>1.9</version>
         <executions>
           <execution>
             <phase>package</phase>

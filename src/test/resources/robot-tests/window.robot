@@ -23,7 +23,7 @@ Select Window By Title Without RegExp Prefix Should Fail
     selectWindow  regexp=T.{2}t.*
     contextIsMainWindow
     selectEmptyContext
-    runKeywordAndExpectError  Frame with name or title 'T.{2}t.*'  selectWindow  T.{2}t.*
+    runKeywordAndExpectError  Frame with name or title 'T.{2}t.*' (WindowWaiter.WaitWindowTimeout)  selectWindow  T.{2}t.*
 
 Select Window By Index
     selectWindow  0
@@ -45,7 +45,7 @@ Close Window
     selectFromMainMenu  Test Menu|Show Test Window
     Select Window       Test Window
     closeWindow  Test Window
-    Run keyword and expect error    Frame with name or title 'Test Window'     Select Window       Test Window
+    Run keyword and expect error    Frame with name or title 'Test Window' (WindowWaiter.WaitWindowTimeout)   Select Window       Test Window
 
 Close Window With RegExp
     selectFromMainMenu  Test Menu|Show Test Window
